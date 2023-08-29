@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size: 14px;
+	letter-spacing: .1em;
+	border-top: 2px solid blue;
+	width: 250%
+}
+body p {
+	text-align: left;
+	font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+	font-size:.8em;
+	color: #333333;
+}
+h1 {
+	font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+	font-size:.8em;
+	margin-bottom: -10px;
+}
+a {
+	font-family: Helvetica, Arial, Lucida Grande, sans-serif;
+	text-align: left;
+	font-size:1em;
+	color:#000;
+	text-decoration: none;
+	border-bottom: solid 2px blue;
+}
+a:hover{
+	color: blue;
+}
+.ad {
+	font-style: italic;
+}
+
+#cabecera {
+	font-size:.8em;
+	margin-left:40px;
+	padding-top:7px;
+	padding-bottom:7px;
+	margin-top:3px;
+	background:#FFF;
+	vertical-align: top;
+	margin-right:-15px;
+	position: fixed;
+	width:100%;
+	opacity: 0.8;
+}
+.t-posts {
+	padding-top:50px;
+}
+a.fancybox img {
+border: none;
+}
+
+tr, th {
+    display: table-cell;
+    vertical-align: inherit;
+    width: 500px;
+}
+img {
+	width: 100px;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    width: 100%;
+}
